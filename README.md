@@ -1,7 +1,7 @@
 
-I completed my "Industrial Attachment" from "Techcare Technologies limited" which is a App Design and Development Company.
+I completed my "Industrial Attachment" from "Techcare Technologies limited" which is an App Design and Development Company.
 
-Here, i Learn about every aspects of making a software :
+Here, i Learn about every aspect of making a software :
 
 1.Design & Requirements
 2.Development
