@@ -3,10 +3,11 @@ I completed my "Industrial Attachment" from "Techcare Technologies limited" whic
 
 Here, i Learn about every aspects of making a software :
 
-Design & Requirements
-Development
-Testing
-Business Development
+1.Design & Requirements
+2.Development
+3.Testing
+4.Business Development
+
 I also learn about how "Scrum" works in software development company.
 
 During my attachment, i also develop an android app called "Try New". The main idea of this app is, by using this app you can get a service, where you can wear a new shirt everyday.
