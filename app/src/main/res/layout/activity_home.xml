@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="techcare.eimon.eimran.attachmentproject.home"
+    android:background="#FFFFFF">
+
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/reg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="false" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="#d04b56"
+        android:text="Regular Deal!"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button9"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="See Details"
+        android:id="@+id/textView9"
+        android:textColor="#000000"
+        android:layout_marginLeft="25dp"
+        android:layout_alignTop="@+id/imageVie2"
+        android:layout_toStartOf="@+id/button9" />
+
+
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:id="@+id/imageVie2"
+        android:src="@drawable/home_1"
+        android:layout_alignTop="@+id/button9"
+        android:layout_alignEnd="@+id/button9"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="#d04b56"
+        android:text="Premium Deal!"
+        android:textColor="#FFFFFF"
+        android:id="@+id/butto9"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageVie2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="See Details"
+        android:id="@+id/shareDetails"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="10dp" />
+
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:id="@+id/imageV2"
+        android:src="@drawable/share"
+        android:layout_alignTop="@+id/butto9"
+        android:layout_alignEnd="@+id/butto9" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="#3e3f41"
+        android:text="Share!"
+        android:textColor="#FFFFFF"
+        android:id="@+id/bu9"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageV2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="See Details"
+        android:id="@+id/tex9"
+        android:textColor="#000000"
+        android:layout_alignBottom="@+id/imageVie2"
+        android:layout_alignStart="@+id/shareDetails" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our Services"
+        android:id="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:textSize="30sp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        android:layout_above="@+id/button9"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView10"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/reg" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+    </ScrollView>

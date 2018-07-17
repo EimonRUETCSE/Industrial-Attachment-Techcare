@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demotxt.droidsrce.welcomescreen.welecomeActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#70c4c7">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wear A New Shirt"
+            android:layout_gravity="center"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/intro_1"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Everyday!"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:id="@+id/intro_2"
+            android:layout_gravity="center" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/new_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#82c785"
+            android:text="Log IN"
+            android:textColor="#000000"
+            android:id="@+id/log_in"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:id="@+id/intro_3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#82c785"
+            android:text="SKip login"
+            android:textColor="#000000"
+            android:id="@+id/explore"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Choose Your Brand"
+            android:id="@+id/textView4"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cat&apos;s Eye"
+            android:id="@+id/checkBox2"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sailor"
+            android:id="@+id/checkBox3"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dorji Bari"
+            android:id="@+id/checkBox4"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:id="@+id/checkBox5"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Price Range"
+            android:id="@+id/textView5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Less than 1500"
+            android:id="@+id/checkBo2"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1500-2500"
+            android:id="@+id/checkBo3"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2500-3500"
+            android:id="@+id/checkBo4"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greater than 3500"
+            android:id="@+id/checkBo5"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Color"
+            android:id="@+id/textVie5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black"
+            android:id="@+id/checkB2"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:id="@+id/checkB3"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:id="@+id/checkB"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:id="@+id/checkBo"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Size"
+            android:id="@+id/textVi5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:id="@+id/check2"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:id="@+id/check3"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:id="@+id/check"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XL"
+            android:id="@+id/che"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXL"
+            android:id="@+id/ck"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sleeve"
+            android:id="@+id/textV5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Half"
+            android:id="@+id/ch"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:textColor="#000000"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full"
+            android:id="@+id/c"
+            android:layout_marginTop="5dp"
+            android:checked="false"
+            android:textColor="#000000"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#82c785"
+            android:text="Order Now"
+            android:id="@+id/order"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

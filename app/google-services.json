@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "213289846212",
+    "firebase_url": "https://trynewshirt-538f6.firebaseio.com",
+    "project_id": "trynewshirt-538f6",
+    "storage_bucket": "trynewshirt-538f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213289846212:android:0e1dd9c9a80519b9",
+        "android_client_info": {
+          "package_name": "techcare.eimon.eimran.attachmentproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213289846212-ek8hi6nkjmsta4mh4hsb4nfqqvipa1nj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techcare.eimon.eimran.attachmentproject",
+            "certificate_hash": "621bbc8e2095ff3c1f75b8848adfd124848fee75"
+          }
+        },
+        {
+          "client_id": "213289846212-rvshdho595gbiv9abauvbv6l72r77r3b.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "213289846212-rvshdho595gbiv9abauvbv6l72r77r3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBp2AfymW32k1A10IpVSgmNq264867uc0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213289846212-rvshdho595gbiv9abauvbv6l72r77r3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kk"
+    >
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wear A New Shirt Everyday!"
+        android:textSize="45dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/d_tx"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic" />
+
+
+
+    <Button
+        android:layout_marginTop="150dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Explore"
+        android:id="@+id/button3"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#283339" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/button4"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:background="#283339" />
+
+
+</LinearLayout>

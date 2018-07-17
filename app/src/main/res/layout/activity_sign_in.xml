@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#FFFFFF"
+>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:id="@+id/u_name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:password="false"
+            android:id="@+id/pass" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:hint="Email or Phone No."
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:id="@+id/p_no" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#82c785"
+        android:text="Sign Up"
+        android:id="@+id/submit"
+        android:textColor="#ecd7d7"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#3B5998"
+        android:text="Sign Up With Facebook"
+        android:textColor="#080808"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#dd4b39"
+        android:text="Sign Up With Google+"
+        android:textColor="#080808"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true" />
+
+</LinearLayout>

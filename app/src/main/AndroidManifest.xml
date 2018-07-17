@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="techcare.eimon.eimran.attachmentproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <activity android:name=".LoginActivity" />
+            <activity android:name=".SigninActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".signIn"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".pref_activity"
+            android:label="@string/title_activity_pref_activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".review_shirt"
+            android:label="@string/title_activity_review_shirt"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".delivery_date"
+            android:label="Starting Date" />
+        <activity
+            android:name=".delivery_date_select"
+            android:label="Delivery and Pickup Date" />
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".home_grid"
+            android:label="Home" />
+        <activity
+            android:name=".welcome"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".payment_method"
+            android:label="@string/title_activity_payment_method"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".share_shirt"
+            android:label="@string/title_activity_share_shirt"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".oreder_history" />
+        <activity android:name=".account_settings" />
+        <activity android:name=".map"></activity>
+    </application>
+
+</manifest>

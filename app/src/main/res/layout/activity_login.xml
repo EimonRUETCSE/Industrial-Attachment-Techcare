@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="123dp"
+        android:paddingBottom="20dp"
+        android:src="@drawable/new_logo"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffff"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:id="@+id/user_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+
+        android:textColor="#000000"
+        android:id="@+id/password" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remeber Me"
+        android:id="@+id/checkBox"
+        android:checked="false"
+        android:textColor="#fdf6f0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#82c785"
+        android:text="Log In"
+        android:textColor="#000000"
+        android:id="@+id/log_in"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Forgot Password?"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:id="@+id/textView"
+        android:gravity="bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:clickable="true"
+        android:id="@+id/d_tx"
+        android:gravity="bottom"
+        android:layout_weight="0.27"
+        android:layout_gravity="center_horizontal" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#cccccc">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#cccccc">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:id="@+id/s_up_button"
+        android:background="#82c785"
+        android:focusable="false"
+        android:layout_marginTop="20dp"
+        android:textColor="#010101"
+        android:typeface="sans"
+        android:clickable="true" />
+
+</LinearLayout>

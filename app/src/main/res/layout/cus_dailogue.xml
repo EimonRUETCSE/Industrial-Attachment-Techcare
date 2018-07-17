@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="1.You can order shirts for one or two weeks.\n2.You can receive your box before one or two days of starting date.\n3.You have to return the box after one or two days of ending date.\n4.You have to compensate for any damage to the shirt."
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#82c785"
+        android:text="Close"
+        android:textColor="#000000"
+        android:id="@+id/dialogButtonOK"
+        android:clickable="true"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>
